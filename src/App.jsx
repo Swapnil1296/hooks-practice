@@ -6,6 +6,8 @@ import UseCallbackHook from "./components/hooks/UseCallbackHook";
 import UseMemoHooks from "./components/hooks/UseMemoHooks";
 import ReduxParentComponent from "./components/RTK/components/ReduxParentComponent";
 import DebounceExample from "./components/Debouncing/Debouncing";
+import { TodoList } from "./machineCodingRound/TodoList";
+import Pagination from "./machineCodingRound/pagination/Pagination";
 
 const App = () => {
   return (
@@ -16,7 +18,9 @@ const App = () => {
       {/* <UseCallbackHook /> */}
       {/* <UseMemoHooks /> */}
       {/* <ReduxParentComponent /> */}
-      <DebounceExample />
+      {/* <DebounceExample /> */}
+      {/* <TodoList /> */}
+      <Pagination />
     </>
   );
 };

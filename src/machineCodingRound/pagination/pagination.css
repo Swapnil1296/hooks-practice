@@ -1,0 +1,90 @@
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+
+
+    /* Center items horizontally */
+    text-align: center;
+    /* Ensure text within container is centered */
+}
+
+/* Header (Pagination title) styling */
+.container>div:first-child {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Grid for the cards */
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* Card styling */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect for cards */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Image styling within the card */
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Title styling within the card */
+.card span {
+    display: block;
+    padding: 10px;
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+.pagination-container {
+    display: flex;
+    gap: 5px;
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.pagination-container>span {
+    border: 1px solid brown;
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.pagination-container>span.active {
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+
+.pagination-container>span:hover {
+    cursor: pointer;
+}
+
+.pagination-container>button {
+    cursor: pointer;
+}
