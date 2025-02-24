@@ -8,6 +8,7 @@ import ReduxParentComponent from "./components/RTK/components/ReduxParentCompone
 import DebounceExample from "./components/Debouncing/Debouncing";
 import { TodoList } from "./machineCodingRound/TodoList";
 import Pagination from "./machineCodingRound/pagination/Pagination";
+import VirtualizedProductList from "./machineCodingRound/virtualization/VirtualizedProductList";
 
 const App = () => {
   return (
@@ -20,7 +21,8 @@ const App = () => {
       {/* <ReduxParentComponent /> */}
       {/* <DebounceExample /> */}
       {/* <TodoList /> */}
-      <Pagination />
+      {/* <Pagination /> */}
+      <VirtualizedProductList />
     </>
   );
 };
